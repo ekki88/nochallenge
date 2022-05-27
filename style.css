@@ -35,48 +35,51 @@ header > h1 {
     font-size: 20px;
     font-weight: 700;
 }
-div > span >  img{
-    display: grid;
-    grid-template-columns: min-content ;
-}
 
-div > span {
-    margin: 20px;
+
+div > span{
+    padding: 20px;
 }
+span > img{
+    max-width:100%; 
+    height:auto !important;
+    align-self: stretch;
+    justify-self: stretch;
+}    
 .a {
-    background-color: #8C8B90;
+    background-color:  #d4d2c5;
 }
 .b {
-
+    background-color:#e8e7e3;
 }
 .c {
-    background-color: #EEE2D4;
+    background-color: #b0aba0;
 }
 .d {
-    grid-column: auto;
-
+    background-color:   #DEC4BD;
 }
 .e {
-    background-color:  #DEC4BD
+    background-color:    #A0A8AE;
 }
 .f {
-    background-color:  #2E3D4A;
+    background-color:   #485449;
 }
 .g {
-    background-color:  #557C8D;
+    background-color:  #bdc4ce;
 }
 .h {
-    background-color:  #7E816F;
+    background-color:    #625c5a;
 }
 .i {
-    
+    background-color:  #AF9591;
 }
+
 .j {
-    background-color: #AF9591
+    background-color: #b1b3b3;
 }
 .k {
-    
-}    
+    background-color:  #2E3D4A;
+}
 .l {
-    background-color:  #754E45;
+    background-color:   #7E816F;
 }
